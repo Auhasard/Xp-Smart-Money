@@ -1,0 +1,129 @@
+.circulo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #414dcf, #2bc2d3, #2feda1);
+  position: relative;
+  top: -330px;
+  bottom: 0px;
+  left: 50px;
+  right: 0;
+  
+}
+.cruzbranca {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 40%;
+  transform: rotate(45deg);
+  position: relative;
+  top: -660px;
+  bottom: 0px;
+  left: 100px;
+  right: 0;
+  
+  clip-path: polygon( /*Está no sentido horario, iniciando pelo ponto superior direito */
+    30% 0%,     
+    70% 0%,     
+    70% 30%,    
+    100% 30%,   
+    100% 70%,   
+    70% 70%,    
+    70% 100%,   
+    30% 100%,   
+    30% 70%,    
+    0% 70%,     
+    0% 30%,     
+    30% 30%     
+  );
+}
+
+.cruzverde {
+  width: 130px;
+  height: 130px;
+  background: linear-gradient(0deg,  #23a751, #65c51d, #beed21);
+  transform: rotate(45deg);
+  position: relative;
+  top: -800px;
+  bottom: 0px;
+  left: 110px;
+  right: 0;
+  
+  clip-path: polygon( /*Está no sentido horario, iniciando pelo ponto superior direito */
+  40% 5%,    
+  60% 0%,     
+  60% 40%,    
+  100% 40%,   
+  95% 60%,   
+  60% 60%,    
+  60% 100%,   
+  40% 95%,   
+  40% 60%,    
+  0% 60%,     
+  5% 40%,     
+  40% 40%    
+  );
+}
+
+.circulobranco{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #ffffff;
+  position: relative;
+  top: -450px;
+  bottom: 0px;
+  left: 65px;
+  right: 0;
+}
+.meialua {
+  width: 12px;
+  height: 22px;
+  border-radius: 50%;
+  background: #414dcf;
+  border-radius: 150px 0px 0px 150px; 
+  overflow: hidden;
+  position: relative;
+  top: -479px;
+  bottom: 0px;
+  left: 70px;
+  right: 0;
+}
+
+.circulolampada1{
+  width: 35px;
+  height: 37px;
+  border-radius: 50%;
+  background: #ffffff;
+  position: relative;
+  top: -580px;
+  bottom: 0px;
+  left: 245px;
+  right: 0px;
+  
+}
+.circulolampada2{
+  width: 20px;
+  height: 25px;
+  border-radius: 35%;
+  background: #ffffff;
+  position: relative;
+  top: -590px;
+  bottom: 0px;
+  left: 253px;
+  right: 0px;
+}
+.lampadameialua {
+  width: 23px;
+  height: 15px;
+  border-radius: 50%;
+  background: #d2ed21;
+  border-radius: 150px 150px 0 0; 
+  overflow: hidden;
+  position: relative;
+  top: -637px;
+  bottom: 0px;
+  left: 251px;
+  right: 0px;
+}
+
